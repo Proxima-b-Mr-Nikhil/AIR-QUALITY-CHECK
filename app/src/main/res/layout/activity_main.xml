@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_marginTop="30dp"
+        android:id="@+id/add_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:fontFamily="@font/helvetica"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:padding="7dp"
+            android:id="@+id/search"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/submitbutton"
+            android:text="SEARCH"
+            android:textColor="#ffff"
+            />
+
+        <Button
+            android:fontFamily="@font/helvetica"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:padding="7dp"
+            android:id="@+id/connect"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/submitbutton"
+            android:text="CONNECT"
+            android:textColor="#ffff"
+            />
+    </LinearLayout>
+    <ListView android:padding="7dp" android:fontFamily="@font/helvetica" android:id="@+id/listview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>
